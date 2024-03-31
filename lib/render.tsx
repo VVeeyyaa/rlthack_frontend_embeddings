@@ -21,7 +21,7 @@ export async function render<
   let data = {
     user_id: options.aiState.chatId,
     message: options.message,
-    model_type: options.modelname
+    model_type: 'gpt_retrieval'
   }
 
   let response = await fetch(

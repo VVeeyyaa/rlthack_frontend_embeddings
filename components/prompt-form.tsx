@@ -134,7 +134,7 @@ export function PromptForm({
           </Tooltip>
         </div>
       </div>
-      <div className="relative flex max-h-60 w-full max-w-[200px] grow overflow-hidden bg-background ml-4">
+      {/**<div className="relative flex max-h-60 w-full max-w-[200px] grow overflow-hidden bg-background ml-4">
         <Select
           label=""
           placeholder="Select a model"
@@ -179,7 +179,7 @@ export function PromptForm({
             </SelectItem>
           ))}
         </Select>
-      </div>
+      </div>*/}
     </form>
   )
 }
